@@ -16,8 +16,8 @@ export default function Header() {
         <div>
           <div className="flex">
             {icon ? (
-              <FaBars onClick={changeIcon} className="text-3xl md:hidden block text-white" />
-            ) : (<IoClose onClick={changeIcon} className="text-3xl md:hidden block text-white"/>
+              <FaBars onClick={changeIcon} className="text-3xl cursor-pointer md:hidden block text-white" />
+            ) : (<IoClose onClick={changeIcon} className="text-3xl cursor-pointer md:hidden block text-white"/>
             )}
           </div>
           <ul className="hidden md:flex gap-5 items-center font-medium text-white">
